@@ -5,12 +5,12 @@ using UnityEngine;
 public abstract class ChangerSubscriberBase : MonoBehaviour
 {
     [Header("Enable This Option If your Component shall be Created in RunTime")]
-    [SerializeField] private bool IsMergentElement;
+    [SerializeField] private bool EmergentElement;
 
     private void OnEnable()
     {
         Delegates.Register_OnChangeTheme += OnChangedTheme;
-        if (IsMergentElement)
+        if (EmergentElement)
             OnEnabledObject();
     }
     private void OnDisable()

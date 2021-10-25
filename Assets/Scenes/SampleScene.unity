@@ -250,7 +250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9a236cc80261b64ea8ccb46827c32a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsMergentElement: 1
+  EmergentElement: 0
   LocalButton: {fileID: 0}
 --- !u!114 &73972002
 MonoBehaviour:
@@ -384,7 +384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78b37ea1f69cf2c4f9dc7758d38d537e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsMergentElement: 0
+  EmergentElement: 0
   color_Types: 10
   LocalImage: {fileID: 0}
 --- !u!114 &274319679
@@ -475,7 +475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaac69693adb1ca4688a6fbc92dd1819, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsMergentElement: 0
+  EmergentElement: 0
   LocalText: {fileID: 0}
   font_Types: 2
 --- !u!114 &275041346
@@ -627,7 +627,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9a236cc80261b64ea8ccb46827c32a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsMergentElement: 0
+  EmergentElement: 0
   LocalButton: {fileID: 0}
 --- !u!114 &402427468
 MonoBehaviour:
@@ -773,7 +773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaac69693adb1ca4688a6fbc92dd1819, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsMergentElement: 0
+  EmergentElement: 0
   LocalText: {fileID: 0}
   font_Types: 1
 --- !u!114 &435927021
@@ -1020,7 +1020,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaac69693adb1ca4688a6fbc92dd1819, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsMergentElement: 0
+  EmergentElement: 0
   LocalText: {fileID: 0}
   font_Types: 0
 --- !u!1 &604621242
@@ -1073,7 +1073,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaac69693adb1ca4688a6fbc92dd1819, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsMergentElement: 0
+  EmergentElement: 0
   LocalText: {fileID: 0}
   font_Types: 2
 --- !u!114 &604621245
@@ -1223,7 +1223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaac69693adb1ca4688a6fbc92dd1819, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsMergentElement: 0
+  EmergentElement: 0
   LocalText: {fileID: 0}
   font_Types: 3
 --- !u!114 &642463325
@@ -1373,7 +1373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78b37ea1f69cf2c4f9dc7758d38d537e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsMergentElement: 1
+  EmergentElement: 0
   color_Types: 0
   LocalImage: {fileID: 0}
 --- !u!114 &679821567
@@ -1557,7 +1557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaac69693adb1ca4688a6fbc92dd1819, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsMergentElement: 0
+  EmergentElement: 0
   LocalText: {fileID: 0}
   font_Types: 0
 --- !u!114 &726180838
@@ -1708,7 +1708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78b37ea1f69cf2c4f9dc7758d38d537e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsMergentElement: 0
+  EmergentElement: 0
   color_Types: 6
   LocalImage: {fileID: 0}
 --- !u!114 &925542619
@@ -1801,7 +1801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9a236cc80261b64ea8ccb46827c32a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsMergentElement: 0
+  EmergentElement: 0
   LocalButton: {fileID: 0}
 --- !u!114 &928388717
 MonoBehaviour:
@@ -2030,7 +2030,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaac69693adb1ca4688a6fbc92dd1819, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsMergentElement: 1
+  EmergentElement: 0
   LocalText: {fileID: 0}
   font_Types: 3
 --- !u!114 &1080773627
@@ -2130,54 +2130,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1080773624}
   m_CullTransparentMesh: 1
---- !u!1 &1128691057
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1128691058}
-  - component: {fileID: 1128691059}
-  m_Layer: 0
-  m_Name: ThemeManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1128691058
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1128691057}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1128691059
+--- !u!114 &1128691059 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 1066168748345401776, guid: 8919ba22f96cdb84cb4b42a95f44be83, type: 3}
+  m_PrefabInstance: {fileID: 1066168747217540291}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1128691057}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: efa161ea7208428498f5de20755d988a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DefaultTheme: 0
-  AviableThemesList:
-  - {fileID: 11400000, guid: aef23791fb66b1846a7c1be0039d65ff, type: 2}
-  - {fileID: 11400000, guid: a45ee5dcc894fc94e87b32c5a01b9be3, type: 2}
-  - {fileID: 11400000, guid: 2371a1bd9f67c9b4cb00069931e2fa6c, type: 2}
 --- !u!1 &1146698293
 GameObject:
   m_ObjectHideFlags: 0
@@ -2298,7 +2261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78b37ea1f69cf2c4f9dc7758d38d537e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsMergentElement: 0
+  EmergentElement: 0
   color_Types: 0
   LocalImage: {fileID: 0}
 --- !u!114 &1147633398
@@ -2435,7 +2398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78b37ea1f69cf2c4f9dc7758d38d537e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsMergentElement: 0
+  EmergentElement: 0
   color_Types: 4
   LocalImage: {fileID: 0}
 --- !u!1 &1288738692
@@ -2664,7 +2627,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaac69693adb1ca4688a6fbc92dd1819, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsMergentElement: 0
+  EmergentElement: 0
   LocalText: {fileID: 0}
   font_Types: 0
 --- !u!1 &1344031439
@@ -2719,7 +2682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9a236cc80261b64ea8ccb46827c32a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsMergentElement: 0
+  EmergentElement: 0
   LocalButton: {fileID: 0}
 --- !u!114 &1344031442
 MonoBehaviour:
@@ -2865,7 +2828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78b37ea1f69cf2c4f9dc7758d38d537e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsMergentElement: 0
+  EmergentElement: 0
   color_Types: 8
   LocalImage: {fileID: 0}
 --- !u!114 &1351171000
@@ -3053,7 +3016,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaac69693adb1ca4688a6fbc92dd1819, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsMergentElement: 1
+  EmergentElement: 0
   LocalText: {fileID: 0}
   font_Types: 1
 --- !u!1 &1424145171
@@ -3106,7 +3069,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaac69693adb1ca4688a6fbc92dd1819, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsMergentElement: 0
+  EmergentElement: 0
   LocalText: {fileID: 0}
   font_Types: 0
 --- !u!114 &1424145174
@@ -3260,7 +3223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78b37ea1f69cf2c4f9dc7758d38d537e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsMergentElement: 0
+  EmergentElement: 0
   color_Types: 2
   LocalImage: {fileID: 0}
 --- !u!114 &1620672966
@@ -3351,7 +3314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaac69693adb1ca4688a6fbc92dd1819, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsMergentElement: 0
+  EmergentElement: 0
   LocalText: {fileID: 0}
   font_Types: 3
 --- !u!114 &1795987154
@@ -3578,7 +3541,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96989ff9ea890ca4a909bf2e887e4873, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsMergentElement: 0
+  EmergentElement: 0
   LocalToggle: {fileID: 0}
 --- !u!114 &1819405706
 MonoBehaviour:
@@ -3781,7 +3744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9a236cc80261b64ea8ccb46827c32a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsMergentElement: 0
+  EmergentElement: 0
   LocalButton: {fileID: 0}
 --- !u!114 &2114307254
 MonoBehaviour:
@@ -3865,3 +3828,76 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2114307251}
   m_CullTransparentMesh: 1
+--- !u!1001 &1066168747217540291
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1066168748345401776, guid: 8919ba22f96cdb84cb4b42a95f44be83, type: 3}
+      propertyPath: AviableThemesList.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066168748345401776, guid: 8919ba22f96cdb84cb4b42a95f44be83, type: 3}
+      propertyPath: AviableThemesList.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: aef23791fb66b1846a7c1be0039d65ff, type: 2}
+    - target: {fileID: 1066168748345401776, guid: 8919ba22f96cdb84cb4b42a95f44be83, type: 3}
+      propertyPath: AviableThemesList.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: a45ee5dcc894fc94e87b32c5a01b9be3, type: 2}
+    - target: {fileID: 1066168748345401776, guid: 8919ba22f96cdb84cb4b42a95f44be83, type: 3}
+      propertyPath: AviableThemesList.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 2371a1bd9f67c9b4cb00069931e2fa6c, type: 2}
+    - target: {fileID: 1066168748345401777, guid: 8919ba22f96cdb84cb4b42a95f44be83, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066168748345401777, guid: 8919ba22f96cdb84cb4b42a95f44be83, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066168748345401777, guid: 8919ba22f96cdb84cb4b42a95f44be83, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066168748345401777, guid: 8919ba22f96cdb84cb4b42a95f44be83, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066168748345401777, guid: 8919ba22f96cdb84cb4b42a95f44be83, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066168748345401777, guid: 8919ba22f96cdb84cb4b42a95f44be83, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066168748345401777, guid: 8919ba22f96cdb84cb4b42a95f44be83, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066168748345401777, guid: 8919ba22f96cdb84cb4b42a95f44be83, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066168748345401777, guid: 8919ba22f96cdb84cb4b42a95f44be83, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066168748345401777, guid: 8919ba22f96cdb84cb4b42a95f44be83, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066168748345401777, guid: 8919ba22f96cdb84cb4b42a95f44be83, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066168748345401778, guid: 8919ba22f96cdb84cb4b42a95f44be83, type: 3}
+      propertyPath: m_Name
+      value: ThemeManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8919ba22f96cdb84cb4b42a95f44be83, type: 3}
