@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 
+
+[AddComponentMenu("Simple UI/ButtonColorChanger")]
 public class ChangerButtonSubscriber : ChangerSubscriberBase
 {
     [SerializeField] UnityEngine.UI.Button LocalButton;

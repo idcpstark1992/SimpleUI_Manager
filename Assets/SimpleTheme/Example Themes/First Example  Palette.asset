@@ -10,29 +10,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 44c4684d34d37124fb663ef3c4e9fc4e, type: 3}
-  m_Name: Third Palette
+  m_Name: First Example  Palette
   m_EditorClassIdentifier: 
   ButtonSelectableColors:
-    ButtonColorScheme:
-      m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
-      m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
-      m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
-      m_SelectedColor: {r: 0, g: 0, b: 0, a: 0}
-      m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
-      m_ColorMultiplier: 0
-      m_FadeDuration: 0
+    SelectableColorScheme:
+      m_NormalColor: {r: 0.42114633, g: 0.9811321, b: 0.7232134, a: 1}
+      m_HighlightedColor: {r: 0, g: 1, b: 1, a: 1}
+      m_PressedColor: {r: 0.3066038, g: 1, b: 0.547098, a: 1}
+      m_SelectedColor: {r: 0.8679245, g: 0.80950123, b: 0.31523672, a: 1}
+      m_DisabledColor: {r: 0.754717, g: 0.26699895, b: 0.30633265, a: 1}
+      m_ColorMultiplier: 1
+      m_FadeDuration: 0.2
   ToggleColorScheme:
-    ButtonColorScheme:
-      m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
-      m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
-      m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
-      m_SelectedColor: {r: 0, g: 0, b: 0, a: 0}
-      m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
-      m_ColorMultiplier: 0
-      m_FadeDuration: 0
+    SelectableColorScheme:
+      m_NormalColor: {r: 0.43877834, g: 0.9056604, b: 0.12388753, a: 1}
+      m_HighlightedColor: {r: 0.8867924, g: 0.6710189, b: 0.13803846, a: 1}
+      m_PressedColor: {r: 0.24022818, g: 1, b: 0, a: 1}
+      m_SelectedColor: {r: 0.8584906, g: 0.48998755, b: 0.48998755, a: 1}
+      m_DisabledColor: {r: 0.1481844, g: 0.8490566, b: 0.49696887, a: 1}
+      m_ColorMultiplier: 1
+      m_FadeDuration: 0.4
   Colors:
-    FlyoutColor: {r: 0, g: 0.745283, b: 0.017757203, a: 1}
-    FlyoutColor_Alternative: {r: 0.072619475, g: 0.33962262, b: 0, a: 1}
+    FlyoutColor: {r: 0.8207547, g: 0.8207547, b: 0.8207547, a: 1}
+    FlyoutColor_Alternative: {r: 1, g: 1, b: 1, a: 1}
     BackGroundColor: {r: 0.0062674447, g: 0.0027589954, b: 0.5849056, a: 1}
     BackGroundColor_Alternative: {r: 0.39021894, g: 0.39747614, b: 0.745283, a: 1}
     ForeGroundColor: {r: 0.16420436, g: 0.7735849, b: 0.6760745, a: 1}
@@ -47,25 +47,25 @@ MonoBehaviour:
     BackGroundSceneColor_Alternative: {r: 0.3773585, g: 0.097899616, b: 0.16443746, a: 1}
   HeaderFont:
     Font_type: {fileID: 11400000, guid: 3b5df00b13f2eb74abd44a9a8f240c67, type: 2}
-    FontSize: 20
-    FontColor: {r: 1, g: 0, b: 0, a: 1}
+    FontSize: 40
+    FontColor: {r: 0.9339623, g: 0.4273318, b: 0.4273318, a: 1}
     Alignement: 514
     FontStyle: 1
   SubHeaderFont:
     Font_type: {fileID: 11400000, guid: fad4ad50b3a74814a86a69ba9f300514, type: 2}
-    FontSize: 10
-    FontColor: {r: 0.5283019, g: 0.22178711, b: 0.22178711, a: 1}
-    Alignement: 516
-    FontStyle: 2
+    FontSize: 30
+    FontColor: {r: 0.9622642, g: 0.6036846, b: 0.6036846, a: 1}
+    Alignement: 2050
+    FontStyle: 16
   LabelFont:
-    Font_type: {fileID: 11400000, guid: daa81e6ad485f014195010540f839171, type: 2}
-    FontSize: 8
+    Font_type: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    FontSize: 25
     FontColor: {r: 0.20754719, g: 0.16936633, b: 0.16936633, a: 1}
-    Alignement: 0
-    FontStyle: 0
+    Alignement: 258
+    FontStyle: 4
   BodyFont:
     Font_type: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-    FontSize: 5
+    FontSize: 18
     FontColor: {r: 0.20062889, g: 0.12348701, b: 0.7075472, a: 1}
     Alignement: 514
-    FontStyle: 516
+    FontStyle: 1

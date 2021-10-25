@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 
+
+[AddComponentMenu("Simple UI/ColorChangerSubscriber")]
 public class ChangerColorSubscriber : ChangerSubscriberBase
 {
     [SerializeField] private ColorType color_Types;

@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
 
+
+
+[AddComponentMenu("Simple UI/TextColorChangerSubscriber")]
 public class ChangerTextSubscriber : ChangerSubscriberBase
 {
     [SerializeField] private TMPro.TextMeshProUGUI LocalText;

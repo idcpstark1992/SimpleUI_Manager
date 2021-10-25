@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 
+
+[AddComponentMenu("Simple UI/ToggleColorChanger")]
 public class ChangerToggleSubscriber : ChangerSubscriberBase
 {
     [SerializeField] UnityEngine.UI.Toggle LocalToggle;
