@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c4684d34d37124fb663ef3c4e9fc4e, type: 3}
+  m_Name: Second Palette
+  m_EditorClassIdentifier: 
+  ButtonSelectableColors:
+    ButtonColorScheme:
+      m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+      m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+      m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+      m_SelectedColor: {r: 0, g: 0, b: 0, a: 0}
+      m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+      m_ColorMultiplier: 0
+      m_FadeDuration: 0
+  ToggleColorScheme:
+    ButtonColorScheme:
+      m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+      m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+      m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+      m_SelectedColor: {r: 0, g: 0, b: 0, a: 0}
+      m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+      m_ColorMultiplier: 0
+      m_FadeDuration: 0
+  Colors:
+    FlyoutColor: {r: 0, g: 0.745283, b: 0.017757203, a: 1}
+    FlyoutColor_Alternative: {r: 0.072619475, g: 0.33962262, b: 0, a: 1}
+    BackGroundColor: {r: 0.0062674447, g: 0.0027589954, b: 0.5849056, a: 1}
+    BackGroundColor_Alternative: {r: 0.39021894, g: 0.39747614, b: 0.745283, a: 1}
+    ForeGroundColor: {r: 0.16420436, g: 0.7735849, b: 0.6760745, a: 1}
+    ForeGroundColor_Alternative: {r: 0.29036134, g: 0.4245283, b: 0.3960953, a: 1}
+    OutLineColor: {r: 0.6981132, g: 0.11525452, b: 0.5322012, a: 1}
+    OutLineColor_Alternative: {r: 0.5660378, g: 0.17354932, b: 0.5465711, a: 1}
+    PanelColor: {r: 0.6792453, g: 0.6455755, b: 0.11854753, a: 1}
+    PanelColor_Alternative: {r: 0.47326833, g: 0.5754717, b: 0.24158953, a: 1}
+    EmphasisColor: {r: 0.28196186, g: 0.18689926, b: 0.5283019, a: 1}
+    EmphasisColor_Alternative: {r: 0.1853341, g: 0.12655748, b: 0.33962262, a: 1}
+    BackGroundSceneColor: {r: 0.8018868, g: 0.22316661, b: 0.36202234, a: 1}
+    BackGroundSceneColor_Alternative: {r: 0.3773585, g: 0.097899616, b: 0.16443746, a: 1}
+  HeaderFont:
+    Font_type: {fileID: 11400000, guid: 3b5df00b13f2eb74abd44a9a8f240c67, type: 2}
+    FontSize: 20
+    FontColor: {r: 1, g: 0, b: 0, a: 1}
+    Alignement: 514
+    FontStyle: 1
+  SubHeaderFont:
+    Font_type: {fileID: 11400000, guid: fad4ad50b3a74814a86a69ba9f300514, type: 2}
+    FontSize: 10
+    FontColor: {r: 0.5283019, g: 0.22178711, b: 0.22178711, a: 1}
+    Alignement: 516
+    FontStyle: 2
+  LabelFont:
+    Font_type: {fileID: 11400000, guid: daa81e6ad485f014195010540f839171, type: 2}
+    FontSize: 8
+    FontColor: {r: 0.20754719, g: 0.16936633, b: 0.16936633, a: 1}
+    Alignement: 0
+    FontStyle: 0
+  BodyFont:
+    Font_type: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    FontSize: 5
+    FontColor: {r: 0.20062889, g: 0.12348701, b: 0.7075472, a: 1}
+    Alignement: 514
+    FontStyle: 516
